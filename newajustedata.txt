@@ -1,0 +1,323 @@
+
+Processing newajustedata.C...
+ FCN=150.881 FROM MIGRAD    STATUS=CONVERGED     248 CALLS         249 TOTAL
+                     EDM=3.14395e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.42179e+00   1.57342e-02   8.48348e-05   5.06184e-04
+   2  #alpha_{p}   2.07912e+00   2.10154e-01   3.52522e-04  -7.64557e-05
+   3  B_{13}       7.48526e-03   1.31286e-04   7.38783e-07   2.46291e-02
+ FCN=184.388 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=6.75647e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.35492e+00   8.58576e-03   5.01619e-05   5.96742e-02
+   2  #alpha_{p}   1.00503e+00   8.79592e-02   3.17660e-04  -7.55825e-03
+   3  B_{13}       8.34673e-03   7.32873e-05   4.10055e-07  -8.21101e+00
+ FCN=229.931 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=4.36314e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.34302e+00   7.87493e-03   4.81019e-05  -3.01481e-04
+   2  #alpha_{p}   6.50000e-01   1.82174e-02   6.93344e-04** at limit **
+   3  B_{13}       7.95812e-03   5.98951e-05   3.65848e-07  -1.34748e+00
+ FCN=421.183 FROM MIGRAD    STATUS=CONVERGED     276 CALLS         277 TOTAL
+                     EDM=8.78313e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.40693e+00   8.32740e-03   7.36307e-05   8.14342e-04
+   2  #alpha_{p}   1.16127e+00   1.22355e-01   5.51943e-04  -2.33036e-04
+   3  B_{13}       9.22386e-03   7.39694e-05   6.35298e-07  -5.74155e-01
+ FCN=539.191 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=4.6061e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.26979e+00   8.13335e-03   8.94308e-05   2.24148e-02
+   2  #alpha_{p}   8.99747e-01   1.21172e-01   9.14012e-04  -1.11407e-02
+   3  B_{13}       9.81762e-03   5.60039e-05   6.16671e-07   2.26704e+00
+ FCN=282.87 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=3.62606e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.41808e+00   1.50676e-02   1.18361e-04  -3.53830e-03
+   2  #alpha_{p}   1.19203e+00   2.36237e-01   8.77719e-04   2.43465e-03
+   3  B_{13}       9.71719e-03   1.06116e-04   8.44941e-07  -3.62696e-03
+########################################################################################################################################
+19.4	 &          7.422$\pm$     0.016	 &           2.08$92pm$      0.21	 &       7.49e-03$pm$          1e-04\\ 
+23.5	 &          7.355$\pm$     0.009	 &           1.01$92pm$      0.09	 &       8.35e-03$pm$          7e-05\\ 
+30.7	 &          7.343$\pm$     0.008	 &           0.65$92pm$      0.02	 &       7.96e-03$pm$          6e-05\\ 
+44.7	 &          7.407$\pm$     0.008	 &           1.16$92pm$      0.12	 &       9.22e-03$pm$          7e-05\\ 
+53.0	 &          7.270$\pm$     0.008	 &           0.90$92pm$      0.12	 &       9.82e-03$pm$          6e-05\\ 
+62.5	 &          7.418$\pm$     0.015	 &           1.19$92pm$      0.24	 &       9.72e-03$pm$          1e-04\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=150.881 FROM MIGRAD    STATUS=CONVERGED     248 CALLS         249 TOTAL
+                     EDM=3.14395e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.42179e+00   1.57342e-02   8.48348e-05   5.06184e-04
+   2  #alpha_{p}   2.07912e+00   2.10154e-01   3.52522e-04  -7.64557e-05
+   3  B_{13}       7.48526e-03   1.31286e-04   7.38783e-07   2.46291e-02
+ FCN=184.388 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=6.75647e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.35492e+00   8.58576e-03   5.01619e-05   5.96742e-02
+   2  #alpha_{p}   1.00503e+00   8.79592e-02   3.17660e-04  -7.55825e-03
+   3  B_{13}       8.34673e-03   7.32873e-05   4.10055e-07  -8.21101e+00
+ FCN=229.931 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=4.36314e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.34302e+00   7.87493e-03   4.81019e-05  -3.01481e-04
+   2  #alpha_{p}   6.50000e-01   1.82174e-02   6.93344e-04** at limit **
+   3  B_{13}       7.95812e-03   5.98951e-05   3.65848e-07  -1.34748e+00
+ FCN=421.183 FROM MIGRAD    STATUS=CONVERGED     276 CALLS         277 TOTAL
+                     EDM=8.78313e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.40693e+00   8.32740e-03   7.36307e-05   8.14342e-04
+   2  #alpha_{p}   1.16127e+00   1.22355e-01   5.51943e-04  -2.33036e-04
+   3  B_{13}       9.22386e-03   7.39694e-05   6.35298e-07  -5.74155e-01
+ FCN=539.191 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=4.6061e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.26979e+00   8.13335e-03   8.94308e-05   2.24148e-02
+   2  #alpha_{p}   8.99747e-01   1.21172e-01   9.14012e-04  -1.11407e-02
+   3  B_{13}       9.81762e-03   5.60039e-05   6.16671e-07   2.26704e+00
+ FCN=282.87 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=3.62606e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.41808e+00   1.50676e-02   1.18361e-04  -3.53830e-03
+   2  #alpha_{p}   1.19203e+00   2.36237e-01   8.77719e-04   2.43465e-03
+   3  B_{13}       9.71719e-03   1.06116e-04   8.44941e-07  -3.62696e-03
+########################################################################################################################################
+19.4	 &7.422$\pm$0.016	 & 2.08$92pm$      0.21	 &7.49e-03$pm$1e-04\\ 
+23.5	 &7.355$\pm$0.009	 & 1.01$92pm$      0.09	 &8.35e-03$pm$7e-05\\ 
+30.7	 &7.343$\pm$0.008	 & 0.65$92pm$      0.02	 &7.96e-03$pm$6e-05\\ 
+44.7	 &7.407$\pm$0.008	 & 1.16$92pm$      0.12	 &9.22e-03$pm$7e-05\\ 
+53.0	 &7.270$\pm$0.008	 & 0.90$92pm$      0.12	 &9.82e-03$pm$6e-05\\ 
+62.5	 &7.418$\pm$0.015	 & 1.19$92pm$      0.24	 &9.72e-03$pm$1e-04\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=150.881 FROM MIGRAD    STATUS=CONVERGED     248 CALLS         249 TOTAL
+                     EDM=3.14395e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.42179e+00   1.57342e-02   8.48348e-05   5.06184e-04
+   2  #alpha_{p}   2.07912e+00   2.10154e-01   3.52522e-04  -7.64557e-05
+   3  B_{13}       7.48526e-03   1.31286e-04   7.38783e-07   2.46291e-02
+ FCN=184.388 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=6.75647e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.35492e+00   8.58576e-03   5.01619e-05   5.96742e-02
+   2  #alpha_{p}   1.00503e+00   8.79592e-02   3.17660e-04  -7.55825e-03
+   3  B_{13}       8.34673e-03   7.32873e-05   4.10055e-07  -8.21101e+00
+ FCN=229.931 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=4.36314e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.34302e+00   7.87493e-03   4.81019e-05  -3.01481e-04
+   2  #alpha_{p}   6.50000e-01   1.82174e-02   6.93344e-04** at limit **
+   3  B_{13}       7.95812e-03   5.98951e-05   3.65848e-07  -1.34748e+00
+ FCN=421.183 FROM MIGRAD    STATUS=CONVERGED     276 CALLS         277 TOTAL
+                     EDM=8.78313e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.40693e+00   8.32740e-03   7.36307e-05   8.14342e-04
+   2  #alpha_{p}   1.16127e+00   1.22355e-01   5.51943e-04  -2.33036e-04
+   3  B_{13}       9.22386e-03   7.39694e-05   6.35298e-07  -5.74155e-01
+ FCN=539.191 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=4.6061e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.26979e+00   8.13335e-03   8.94308e-05   2.24148e-02
+   2  #alpha_{p}   8.99747e-01   1.21172e-01   9.14012e-04  -1.11407e-02
+   3  B_{13}       9.81762e-03   5.60039e-05   6.16671e-07   2.26704e+00
+ FCN=282.87 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=3.62606e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.41808e+00   1.50676e-02   1.18361e-04  -3.53830e-03
+   2  #alpha_{p}   1.19203e+00   2.36237e-01   8.77719e-04   2.43465e-03
+   3  B_{13}       9.71719e-03   1.06116e-04   8.44941e-07  -3.62696e-03
+########################################################################################################################################
+19.4	 &	7.422$\pm$0.016	 & 2.08$\pm$      0.21	 &7.49e-03$\pm$1e-04\\ 
+23.5	 &	7.355$\pm$0.009	 & 1.01$\pm$      0.09	 &8.35e-03$\pm$7e-05\\ 
+30.7	 &	7.343$\pm$0.008	 & 0.65$\pm$      0.02	 &7.96e-03$\pm$6e-05\\ 
+44.7	 &	7.407$\pm$0.008	 & 1.16$\pm$      0.12	 &9.22e-03$\pm$7e-05\\ 
+53.0	 &	7.270$\pm$0.008	 & 0.90$\pm$      0.12	 &9.82e-03$\pm$6e-05\\ 
+62.5	 &	7.418$\pm$0.015	 & 1.19$\pm$      0.24	 &9.72e-03$\pm$1e-04\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=150.881 FROM MIGRAD    STATUS=CONVERGED     248 CALLS         249 TOTAL
+                     EDM=3.14395e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.42179e+00   1.57342e-02   8.48348e-05   5.06184e-04
+   2  #alpha_{p}   2.07912e+00   2.10154e-01   3.52522e-04  -7.64557e-05
+   3  B_{13}       7.48526e-03   1.31286e-04   7.38783e-07   2.46291e-02
+ FCN=184.388 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=6.75647e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.35492e+00   8.58576e-03   5.01619e-05   5.96742e-02
+   2  #alpha_{p}   1.00503e+00   8.79592e-02   3.17660e-04  -7.55825e-03
+   3  B_{13}       8.34673e-03   7.32873e-05   4.10055e-07  -8.21101e+00
+ FCN=229.931 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=4.36314e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.34302e+00   7.87493e-03   4.81019e-05  -3.01481e-04
+   2  #alpha_{p}   6.50000e-01   1.82174e-02   6.93344e-04** at limit **
+   3  B_{13}       7.95812e-03   5.98951e-05   3.65848e-07  -1.34748e+00
+ FCN=421.183 FROM MIGRAD    STATUS=CONVERGED     276 CALLS         277 TOTAL
+                     EDM=8.78313e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.40693e+00   8.32740e-03   7.36307e-05   8.14342e-04
+   2  #alpha_{p}   1.16127e+00   1.22355e-01   5.51943e-04  -2.33036e-04
+   3  B_{13}       9.22386e-03   7.39694e-05   6.35298e-07  -5.74155e-01
+ FCN=539.191 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=4.6061e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.26979e+00   8.13335e-03   8.94308e-05   2.24148e-02
+   2  #alpha_{p}   8.99747e-01   1.21172e-01   9.14012e-04  -1.11407e-02
+   3  B_{13}       9.81762e-03   5.60039e-05   6.16671e-07   2.26704e+00
+ FCN=282.87 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=3.62606e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.41808e+00   1.50676e-02   1.18361e-04  -3.53830e-03
+   2  #alpha_{p}   1.19203e+00   2.36237e-01   8.77719e-04   2.43465e-03
+   3  B_{13}       9.71719e-03   1.06116e-04   8.44941e-07  -3.62696e-03
+########################################################################################################################################
+19.4	 &	7.422$\pm$0.016	 & 	 2.08$\pm$      0.21	 &	7.49e-03$\pm$1e-04\\ 
+23.5	 &	7.355$\pm$0.009	 & 	 1.01$\pm$      0.09	 &	8.35e-03$\pm$7e-05\\ 
+30.7	 &	7.343$\pm$0.008	 & 	 0.65$\pm$      0.02	 &	7.96e-03$\pm$6e-05\\ 
+44.7	 &	7.407$\pm$0.008	 & 	 1.16$\pm$      0.12	 &	9.22e-03$\pm$7e-05\\ 
+53.0	 &	7.270$\pm$0.008	 & 	 0.90$\pm$      0.12	 &	9.82e-03$\pm$6e-05\\ 
+62.5	 &	7.418$\pm$0.015	 & 	 1.19$\pm$      0.24	 &	9.72e-03$\pm$1e-04\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=150.881 FROM MIGRAD    STATUS=CONVERGED     248 CALLS         249 TOTAL
+                     EDM=3.14395e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.42179e+00   1.57342e-02   8.48348e-05   5.06184e-04
+   2  #alpha_{p}   2.07912e+00   2.10154e-01   3.52522e-04  -7.64557e-05
+   3  B_{13}       7.48526e-03   1.31286e-04   7.38783e-07   2.46291e-02
+ FCN=184.388 FROM MIGRAD    STATUS=CONVERGED     161 CALLS         162 TOTAL
+                     EDM=6.75647e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.35492e+00   8.58576e-03   5.01619e-05   5.96742e-02
+   2  #alpha_{p}   1.00503e+00   8.79592e-02   3.17660e-04  -7.55825e-03
+   3  B_{13}       8.34673e-03   7.32873e-05   4.10055e-07  -8.21101e+00
+ FCN=229.931 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=4.36314e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.34302e+00   7.87493e-03   4.81019e-05  -3.01481e-04
+   2  #alpha_{p}   6.50000e-01   1.82174e-02   6.93344e-04** at limit **
+   3  B_{13}       7.95812e-03   5.98951e-05   3.65848e-07  -1.34748e+00
+ FCN=421.183 FROM MIGRAD    STATUS=CONVERGED     276 CALLS         277 TOTAL
+                     EDM=8.78313e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.40693e+00   8.32740e-03   7.36307e-05   8.14342e-04
+   2  #alpha_{p}   1.16127e+00   1.22355e-01   5.51943e-04  -2.33036e-04
+   3  B_{13}       9.22386e-03   7.39694e-05   6.35298e-07  -5.74155e-01
+ FCN=539.191 FROM MIGRAD    STATUS=CONVERGED     157 CALLS         158 TOTAL
+                     EDM=4.6061e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.26979e+00   8.13335e-03   8.94308e-05   2.24148e-02
+   2  #alpha_{p}   8.99747e-01   1.21172e-01   9.14012e-04  -1.11407e-02
+   3  B_{13}       9.81762e-03   5.60039e-05   6.16671e-07   2.26704e+00
+ FCN=282.87 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=3.62606e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.41808e+00   1.50676e-02   1.18361e-04  -3.53830e-03
+   2  #alpha_{p}   1.19203e+00   2.36237e-01   8.77719e-04   2.43465e-03
+   3  B_{13}       9.71719e-03   1.06116e-04   8.44941e-07  -3.62696e-03
+########################################################################################################################################
+19.4	 &	7.422$\pm$0.016	 & 	 2.08$\pm$ 0.21	 &	7.49e-03$\pm$1e-04\\ 
+23.5	 &	7.355$\pm$0.009	 & 	 1.01$\pm$ 0.09	 &	8.35e-03$\pm$7e-05\\ 
+30.7	 &	7.343$\pm$0.008	 & 	 0.65$\pm$ 0.02	 &	7.96e-03$\pm$6e-05\\ 
+44.7	 &	7.407$\pm$0.008	 & 	 1.16$\pm$ 0.12	 &	9.22e-03$\pm$7e-05\\ 
+53.0	 &	7.270$\pm$0.008	 & 	 0.90$\pm$ 0.12	 &	9.82e-03$\pm$6e-05\\ 
+62.5	 &	7.418$\pm$0.015	 & 	 1.19$\pm$ 0.24	 &	9.72e-03$\pm$1e-04\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=1.39001 FROM MIGRAD    STATUS=CONVERGED     207 CALLS         208 TOTAL
+                     EDM=2.99249e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.33371e+00   1.39670e-01   9.83743e-05   1.91556e-04
+   2  #alpha_{p}   6.50005e-01   4.25901e+00   4.88478e-03  -7.44197e-05
+   3  B_{13}       9.47216e-03   1.90011e-03   1.33883e-06  -3.10355e-01
+ FCN=11.9065 FROM MIGRAD    STATUS=CONVERGED     227 CALLS         228 TOTAL
+                     EDM=4.04593e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.76773e+00   9.50243e-02   9.23209e-05  -1.67768e-03
+   2  #alpha_{p}   4.86844e+00   9.80342e-01   2.22737e-04   1.80537e-03
+   3  B_{13}       8.60115e-03   6.51412e-04   1.03992e-06   1.36641e-01
+########################################################################################################################################
+19.4	 &	 -nan$\pm$-0.000	 & 	 0.00$\pm$18493952551407639159357952753664.00	 &	0.00e+00$\pm$7e+28\\ 
+23.5	 &	886279438336.000$\pm$-0.000	 & 	 0.00$\pm$17864824238081814707568640.00	 &	0.00e+00$\pm$4e-11\\ 
+30.7	 &	830994351618219048960.000$\pm$ -nan	 & 	-0.00$\pm$17180378551813904718102528.00	 &	0.00e+00$\pm$3e-09\\ 
+44.7	 &	4306405295561428172800.000$\pm$0.000	 & 	-0.00$\pm$18177426757612858490319682928640.00	 &	0.00e+00$\pm$2e+25\\ 
+53.0	 &	18255088152264902268502807674880.000$\pm$18060259697793396264654602240.000	 & 	 0.00$\pm$74104956841962234024464220160.00	 &	0.00e+00$\pm$2e+25\\ 
+62.5	 &	264534475606069346304.000$\pm$307045784373625023731559898808320.000	 & 	 0.00$\pm$ 0.00	 &	0.00e+00$\pm$5e+30\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=1.39001 FROM MIGRAD    STATUS=CONVERGED     207 CALLS         208 TOTAL
+                     EDM=2.99249e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.33371e+00   1.39670e-01   9.83743e-05   1.91556e-04
+   2  #alpha_{p}   6.50005e-01   4.25901e+00   4.88478e-03  -7.44197e-05
+   3  B_{13}       9.47216e-03   1.90011e-03   1.33883e-06  -3.10355e-01
+ FCN=11.9065 FROM MIGRAD    STATUS=CONVERGED     227 CALLS         228 TOTAL
+                     EDM=4.04593e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.76773e+00   9.50243e-02   9.23209e-05  -1.67768e-03
+   2  #alpha_{p}   4.86844e+00   9.80342e-01   2.22737e-04   1.80537e-03
+   3  B_{13}       8.60115e-03   6.51412e-04   1.03992e-06   1.36641e-01
+########################################################################################################################################
+19.4	 &	7.334$\pm$0.140	 & 	 0.65$\pm$ 4.26	 &	9.47e-03$\pm$2e-03\\ 
+#######################################################################################################################################
+
+Processing newajustedata.C...
+ FCN=1.39001 FROM MIGRAD    STATUS=CONVERGED     207 CALLS         208 TOTAL
+                     EDM=2.99249e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.33371e+00   1.39670e-01   9.83743e-05   1.91556e-04
+   2  #alpha_{p}   6.50005e-01   4.25901e+00   4.88478e-03  -7.44197e-05
+   3  B_{13}       9.47216e-03   1.90011e-03   1.33883e-06  -3.10355e-01
+ FCN=11.9065 FROM MIGRAD    STATUS=CONVERGED     227 CALLS         228 TOTAL
+                     EDM=4.04593e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r            7.76773e+00   9.50243e-02   9.23209e-05  -1.67768e-03
+   2  #alpha_{p}   4.86844e+00   9.80342e-01   2.22737e-04   1.80537e-03
+   3  B_{13}       8.60115e-03   6.51412e-04   1.03992e-06   1.36641e-01
+########################################################################################################################################
+19.4	 &	7.334$\pm$0.140	 & 	 0.65$\pm$ 4.26	 &	9.47e-03$\pm$2e-03\\ 
+53.0	 &	7.768$\pm$0.095	 & 	 4.87$\pm$ 0.98	 &	8.60e-03$\pm$7e-04\\ 
+#######################################################################################################################################

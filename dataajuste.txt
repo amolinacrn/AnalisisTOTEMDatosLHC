@@ -1,0 +1,136 @@
+
+Processing mifunmain.cxx...
+ FCN=223.45 FROM MIGRAD    STATUS=CONVERGED     663 CALLS         664 TOTAL
+                     EDM=4.72628e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   4.42989e+00   4.03838e-02   6.29123e-05  -7.41635e-02
+   2  #alpha_{p}   3.37078e+00   3.06068e-01   4.26490e-04   5.23877e-03
+   3  B_{13}       1.38977e-01   1.73127e-02   7.64386e-06  -4.41391e-01
+   4  p3           4.93559e+00   4.42025e-01   2.53840e-04  -9.03959e-03
+ FCN=346.356 FROM MIGRAD    STATUS=CONVERGED     622 CALLS         623 TOTAL
+                     EDM=6.14446e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   4.74138e+00   4.74821e-02   6.89698e-05   5.69497e-04
+   2  #alpha_{p}   2.48489e+00   2.19199e-01   3.38437e-04  -8.24557e-04
+   3  B_{13}       7.45153e-02   5.67994e-03   4.62211e-06   1.52573e-02
+   4  p3           7.57814e+00   3.00980e-01   4.66112e-04   1.56213e-04
+ FCN=633.506 FROM MIGRAD    STATUS=CONVERGED     185 CALLS         186 TOTAL
+                     EDM=8.70391e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   6.31613e+00   4.34660e-02   2.10667e-05  -7.13028e-03
+   2  #alpha_{p}   1.16075e+00   1.08918e-01  -1.16003e-06   1.59051e-03
+   3  B_{13}       1.90709e-02   5.97148e-04  -3.53673e-07  -4.55283e-01
+   4  p3           5.61293e+00   2.30939e-01   1.80888e-05  -8.47869e-04
+ FCN=136.861 FROM MIGRAD    STATUS=CONVERGED     227 CALLS         228 TOTAL
+                     EDM=4.34449e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   6.41442e+00   2.34596e-02   2.93553e-05  -7.86239e-03
+   2  #alpha_{p}   7.86819e-01   4.89963e-02   1.73299e-04   2.40654e-03
+   3  B_{13}       2.05264e-02   3.74928e-04   6.76791e-07  -7.44770e-02
+   4  p3           5.79700e+00   1.27853e-01   2.81382e-04  -1.40045e-03
+ FCN=231.509 FROM MIGRAD    STATUS=CONVERGED     228 CALLS         229 TOTAL
+                     EDM=1.36187e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   6.50901e+00   1.83813e-02   3.53291e-05  -3.66141e-04
+   2  #alpha_{p}   5.00000e-01   1.83448e-02   6.91967e-04** at limit **
+   3  B_{13}       1.85075e-02   2.86901e-04   7.12005e-07  -7.61633e-03
+   4  p3           5.33233e+00   1.04453e-01   3.52352e-04  -2.94893e-05
+ FCN=928.386 FROM MIGRAD    STATUS=CONVERGED     346 CALLS         347 TOTAL
+                     EDM=1.3977e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   5.54305e+00   2.97381e-02   6.35373e-05  -2.57841e-02
+   2  #alpha_{p}   1.46725e+00   6.18403e-02   2.92856e-04   1.85500e-03
+   3  B_{13}       4.49871e-02   1.19224e-03   2.48683e-06  -5.67754e-01
+   4  p3           9.00084e+00   5.37859e-02   4.51695e-04  -1.40111e-03
+ FCN=542.973 FROM MIGRAD    STATUS=CONVERGED     465 CALLS         466 TOTAL
+                     EDM=8.53569e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.9 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   5.27648e+00   3.86458e-02  -2.96629e-05   5.41711e-02
+   2  #alpha_{p}   2.09880e+00   7.00218e-02   2.02977e-05   1.61942e-03
+   3  B_{13}       6.44906e-02   2.88187e-03   2.50998e-06   1.37562e+00
+   4  p3           8.28900e+00   1.50482e-01  -1.12134e-04   1.56596e-02
+ FCN=249.569 FROM MIGRAD    STATUS=CONVERGED     229 CALLS         230 TOTAL
+                     EDM=1.06199e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   6.35826e+00   5.77922e-02   6.01305e-05  -1.00190e-01
+   2  #alpha_{p}   1.36549e+00   1.33490e-01   3.84719e-04   8.91422e-03
+   3  B_{13}       2.61605e-02   9.70330e-04   1.72667e-06  -4.12657e+00
+   4  p3           6.92571e+00   2.78809e-01   4.69438e-04  -3.40612e-03
+ FCN=58.395 FROM MIGRAD    STATUS=CONVERGED     257 CALLS         258 TOTAL
+                     EDM=2.02017e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   8.94821e+00   4.68433e-02   5.90695e-05   7.29773e-03
+   2  #alpha_{p}   7.13630e+00   5.86418e-01   5.76439e-04  -8.62417e-04
+   3  B_{13}       3.69828e-02   1.31383e-03   1.76058e-06   2.54906e-01
+   4  p3           6.52693e-01   5.18069e-02   7.41345e-05   1.23013e-02
+ FCN=40.9219 FROM MIGRAD    STATUS=CONVERGED     342 CALLS         343 TOTAL
+                     EDM=6.92728e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   6.64465e+00   7.56358e-01   2.90528e-04   4.57975e-03
+   2  #alpha_{p}   6.92186e+00   2.91716e+00   1.71849e-03  -7.89004e-04
+   3  B_{13}       2.38058e-02   8.12685e-03   9.06683e-06   1.10048e-01
+   4  p3           5.55012e+00   4.52528e+00   2.14252e-03   8.70627e-04
+ FCN=28.3619 FROM MIGRAD    STATUS=CONVERGED     403 CALLS         404 TOTAL
+                     EDM=7.54701e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   6.95415e+00   2.22738e-01   6.04545e-05  -1.03403e-03
+   2  #alpha_{p}   4.25047e+00   7.23439e-01   2.59216e-04  -4.10053e-05
+   3  B_{13}       1.90512e-02   2.99072e-03   1.46497e-06  -5.96844e-02
+   4  p3           6.40500e+00   1.19212e+00   6.41434e-04  -7.00839e-05
+ FCN=278.685 FROM MIGRAD    STATUS=CONVERGED     175 CALLS         176 TOTAL
+                     EDM=3.56514e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   7.22580e+00   7.93198e-02   9.09272e-05   1.86411e-02
+   2  #alpha_{p}   5.56853e+00   2.36214e-01   2.88483e-04  -1.11333e-03
+   3  B_{13}       3.02670e-02   1.59043e-03   3.10122e-06   5.19569e-01
+   4  p3           1.88871e+00   1.83924e-01   3.25062e-04   4.23971e-03
+ FCN=7.39467 FROM MIGRAD    STATUS=CONVERGED     150 CALLS         151 TOTAL
+                     EDM=1.52105e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   7.09451e+00   2.19463e-01   5.26205e-05  -2.63158e-04
+   2  #alpha_{p}   5.71508e+00   7.99641e-01   9.04293e-05   2.58287e-04
+   3  B_{13}       3.00194e-02   8.17556e-03   1.41740e-06  -1.24462e-01
+   4  p3           1.91094e+00   1.12221e+00   1.21760e-04   7.22115e-04
+ FCN=135.744 FROM MIGRAD    STATUS=CONVERGED     265 CALLS         266 TOTAL
+                     EDM=3.20379e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  r_{proton}   8.19283e+00   6.70700e-02   7.92667e-05  -1.38009e-03
+   2  #alpha_{p}   9.00000e+00   5.01127e-01   2.79794e-03** at limit **
+   3  B_{13}       3.00039e-02   2.25547e-03   2.72362e-06  -9.69651e-02
+   4  p3           6.28171e-01   8.61438e-02   1.73019e-04   1.05533e-03
+ FCN=5353.63 FROM MIGRAD    STATUS=CONVERGED      36 CALLS          37 TOTAL
+                     EDM=1.19426e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.19343e+00   8.82789e-03   4.70922e-04   5.45594e-07
+   2  p1           2.76829e-03   2.63560e-05   3.00000e-06   1.40972e-04
+#################################################################################################################
+9.8	 &	 4.43$\pm$ 0.05	 & 	  3.4$\pm$  0.3	 &	1.39e-01$\pm$2e-02	& 	2.1\\ 
+13.8	 &	 4.74$\pm$ 0.05	 & 	  2.5$\pm$  0.2	 &	7.45e-02$\pm$6e-03	& 	1.9\\ 
+19.4	 &	 6.32$\pm$ 0.03	 & 	  1.2$\pm$  0.1	 &	1.91e-02$\pm$6e-04	& 	2.1\\ 
+23.5	 &	 6.41$\pm$ 0.02	 & 	  0.8$\pm$  0.0	 &	2.05e-02$\pm$4e-04	& 	0.9\\ 
+30.7	 &	 6.51$\pm$ 0.01	 & 	  0.5$\pm$  0.0	 &	1.85e-02$\pm$3e-04	& 	1.4\\ 
+44.7	 &	 5.54$\pm$ 0.03	 & 	  1.5$\pm$  0.1	 &	4.50e-02$\pm$1e-03	& 	4.5\\ 
+53.0	 &	 5.28$\pm$ 0.04	 & 	  2.1$\pm$  0.1	 &	6.45e-02$\pm$3e-03	& 	2.8\\ 
+62.5	 &	 6.36$\pm$ 0.05	 & 	  1.4$\pm$  0.1	 &	2.62e-02$\pm$1e-03	& 	2.0\\ 
+7000.0	 &	 8.95$\pm$ 0.03	 & 	  7.1$\pm$  0.6	 &	3.70e-02$\pm$1e-03	& 	0.4\\ 
+19.4	 &	 6.64$\pm$ 0.57	 & 	  6.9$\pm$  2.9	 &	2.38e-02$\pm$8e-03	& 	1.9\\ 
+53.0	 &	 6.95$\pm$ 0.16	 & 	  4.3$\pm$  0.7	 &	1.91e-02$\pm$3e-03	& 	0.5\\ 
+546.0	 &	 7.23$\pm$ 0.05	 & 	  5.6$\pm$  0.2	 &	3.03e-02$\pm$2e-03	& 	1.5\\ 
+630.0	 &	 7.09$\pm$ 0.15	 & 	  5.7$\pm$  0.8	 &	3.00e-02$\pm$8e-03	& 	0.5\\ 
+1800.0	 &	 8.19$\pm$ 0.04	 & 	  9.0$\pm$  0.5	 &	3.00e-02$\pm$2e-03	& 	1.5\\ 
+##############################################################################################################

@@ -1,0 +1,16 @@
+ TGraphErrors *listadeobjetos =new TGraphErrors(npoints,tt,dsdt,error_e,edsdt);
+       listadeobjetos->SetMarkerStyle(24);
+       listadeobjetos->SetMarkerColor(1);
+       listadeobjetos->SetMarkerSize(1);
+       listadeobjetos->SetLineColorAlpha(1,1);
+       gPad->SetLogy();
+       listadeobjetos->GetYaxis()->SetTitle("d#sigma/dt (mb/GeV^{2})");
+       listadeobjetos->GetXaxis()->SetTitle("momento trasferido, |t| (GeV^{2})");
+       listadeobjetos->GetYaxis()->SetTitleOffset(1.08);
+       listadeobjetos->GetYaxis()->SetTitleSize(0.038);
+       listadeobjetos->GetXaxis()->SetTitleSize(0.038);
+       listadeobjetos->SetTitle("d#sigma/dt elastica p#bar{p}#rightarrow p#bar{p} a #sqrt{s}=13.76 GeV vs. |t|");
+	 listadeobjetos->Draw("AP");
+	 //listadeobjetos[i]->GetXaxis()->SetLimits(-0.2,rangoX);
+	   //listadeobjetos[i]->SetMinimum(1E-9);
+	   //listadeobjetos[i]->SetMaximum(1E+3);

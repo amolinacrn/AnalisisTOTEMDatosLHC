@@ -1,0 +1,429 @@
+#include<seccioneficaz.h>
+#include<mifun.h>
+
+void newajustedata(){
+  TCanvas *micanvas;
+  TGraphErrors *gr;
+  TGraphErrors *gre3;
+  TMultiGraph *mg;
+  TMultiGraph *mgl;
+  TF1 *f4;
+  float *defObjetoMyFunc=new float[14];
+  //TCanvas *c2= new TCanvas("cYY14 ","migrafico",300,500,550,470);
+  //c2->Divide(2,1);
+  float *matrizRadioProton=new float[14];
+  float *matrizEnergias=new float[14];
+  float *errorRadioProton=new float[14];
+  float *matrizNormalizacionGlobal=new float[14];
+  float *errorMatrizNormalizacionGlobal=new float[14];
+  float *matrizPomeronElastico=new float[14];
+  float *matrizB13=new float[14];
+  float *parRadioProMenores=new float[10];
+  float *parRadioProMayores=new float[10];
+  float *errorParRadioProMenores=new float[10];
+  float *errorParRadioProMayores=new float[10];
+  float *otraEnergiaProMayores=new float[10];
+  float *otraEnergiaProMenores=new float[10];
+  float radioproton=0, pomeronElasatico=0,parametroB13=0, normalizacionGlobal=1;
+  float *errorMatrizPomeronElasatico=new float[14];
+  float *errorMatrizB13=new float[14];
+  /*
+  gStyle->SetOptFit();
+  gStyle->SetStatY(0.88);
+  gStyle->SetStatX(0.88);
+  */
+  
+  string pp="pp_ds/dt";
+  float vectorDeEnergiaS[14]={9.78,13.76,19.4,23.5,30.7,44.7,53,62.5,7000,//Energias pp
+			      19.4,53,546,630,1800};//Energias pbarp
+  float vectorDeEnergiaSo[14]={3.33,3.68,3.97,4.54,4.76,5,5.26,5.26,6.67,// pp
+			       3.97,5.26,5.65,5.88,6.04};//pbarp
+  float vectorDeRectasPomeron[14]={0.30,0.27,0.25,0.22,0.21,0.20,0.19,0.19,0.15,// pp
+				   0.25,0.19,0.18,0.17,0.16};//pbarp
+  float vectorDeSeccionEficazTotal[14]={38.19,38.52,38.94,39.18,40.10,41.80,42.62,43.55,98.6,//pp
+					  41.5,44.7,61.26,62.07,75.55};//pbarp
+   Double_t gConstante=0;    
+  for (int i = 2; i <8; i++) {
+    MyMainFrame defineMyFunc(vectorDeEnergiaS[i],
+			     6.6667,//vectorDeEnergiaSo[i],
+			     0.15,//vectorDeRectasPomeron[i],
+			     vectorDeSeccionEficazTotal[i]);
+    
+    float menordat7=0,mayordat7=0, mmy=0,mmx=0;
+    Double_t kv=0;
+    Double_t kc=0;
+    Int_t contador=0, npoints=0,npoints7=0 ;
+    Double_t tt[400]={0};
+    Double_t dsdt[400]={0};
+    Double_t edsdt[400]={0};
+    Double_t error_e[400]={0};
+    Double_t tt7[400]={0};
+    Double_t dsdt7[400]={0};
+    Double_t edsdt7[400]={0};
+    Double_t data1=0,data2=0,data3=0,data4=0, data5=0, data6=0;
+    string name1;
+   
+    //#########################################################################################
+ 
+    //############# Proton-proton ####################
+    //if(data1 > 9.7 && data1 < 9.8 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6)
+    if(i==0){
+      pp="pp_ds/dt";
+      menordat7=9.7,mayordat7=9.8, mmy=6,mmx=0.005;
+      micanvas= new TCanvas("xxc3vv0","migrafico",300,500,550,470);
+      gConstante=1E+26;
+    }
+    
+    //if(data1 > 13.7 && data1 < 13.8 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6)
+    if(i==1){
+      pp="pp_ds/dt";
+      menordat7=13.7,mayordat7=13.8, mmy=6,mmx=0.005;
+      micanvas= new TCanvas("c3vv0","migrafico",300,500,550,470);
+      gConstante=1E+23;
+    }
+  
+    //if(data1 > 19.3 && data1 <19.5 && data3 > 1E-5 && data3<10 && collision_pp == name1  && data2 >0.005 && data2 <6 )
+    if(i==2){
+      pp="pp_ds/dt";
+      menordat7=19.3,mayordat7=19.5, mmy=6,mmx=1;
+      micanvas= new TCanvas("c30","migrafico",300,500,550,470);
+      gConstante=1E+20;
+    }
+    
+    //if(data1 >23.4 && data1 < 23.51/*&& data3 > 1E-5 && data3<10*/ && collision_pp == name1  && data2 >0.005 && data2<8 )
+    if(i==3){
+      //fdatos.open("datos23GeV.txt",ios::out);//se crea una archivo de escritura
+      pp="pp_ds/dt";
+      menordat7=23.4;
+      mayordat7=23.51;
+      mmy=8,mmx=1;
+      micanvas= new TCanvas("micanvas1","migrafico",300,500,550,470);
+      gConstante=1E+17;
+    }
+    
+    //if(data1 > 30.65 && data1 <31 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==4){
+      //fdatos.open("datos30GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=30.65,mayordat7=31, mmy=6,mmx=1;
+      micanvas= new TCanvas("cX4","migrafico",300,500,550,470);
+      gConstante=1E+14;
+    }
+    //if(data1 >44.6 && data1 <44.7 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==5){
+      //fdatos.open("datos44GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=44.6,mayordat7=44.7, mmy=6,mmx=1;
+      micanvas= new TCanvas("cV5","migrafico",300,500,550,470);
+      gConstante=1E+11;
+      
+    }
+    //if(data1 >52.8 && data1 <53.1 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==6){
+      //fdatos.open("datos52GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=52.8,mayordat7=53.1, mmy=6,mmx=1.1;
+      micanvas= new TCanvas("cT6","migrafico",300,500,550,470);
+      gConstante=1E+8;
+      
+    }
+    //if(data1 >62.4 && data1 <62.6 && data3 > 2E-8 /*&& data3<10*/ && collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==7){
+      //fdatos.open("datos62GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=62.4,mayordat7=62.6, mmy=6,mmx=1;
+      micanvas= new TCanvas("Hc7","migrafico",300,500,550,470);
+
+   gConstante=1E+5;
+    }
+    //if(data1 > 6900 && data1 < 7100 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 <3){
+    if(i==8){
+      //fdatos.open("datos7TeV.txt",ios::out);//se crea una archivo de escritura
+      pp="pp_ds/dt";
+      menordat7=6900;
+      mayordat7=7100;
+      mmy=6,mmx=0.3;
+     micanvas= new TCanvas("cA1","migrafico",300,500,550,470);
+      gConstante=1;
+    }
+        
+    //############# Proton-antiproton ####################
+    //if(data1 > 19.3 && data1 <19.5 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1 && data2 >0.005 && data2 < 6 ){
+    if(i==9){
+      //fdatos.open("datos19GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=19.3,mayordat7=19.5, mmy=6,mmx=1;
+     micanvas= new TCanvas("cG10 ","migrafico",300,500,550,470);
+      gConstante=1E+11;
+    }
+    //if(data1 > 52.89 && data1 < 53.1 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1 && data2 >0.005 && data2 < 6 ){
+    if(i==10){
+      //fdatos.open("datos53GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=52.89,mayordat7=53.1, mmy=6,mmx=1;
+      micanvas = new TCanvas("cZZ11 ","migrafico",300,500,550,470);
+      gConstante=1E+9;
+    }
+    //if(data1 > 545 && data1 < 547 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==11){
+      //fdatos.open("datos546GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=545,mayordat7=547, mmy=6,mmx=0.005;
+     micanvas= new TCanvas("cDD12 ","migrafico",300,500,550,470);
+      gConstante=1E+6;
+    }
+    //if(data1 > 629 && data1 <631 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==12){
+      //fdatos.open("datos630GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=629,mayordat7=631, mmy=6,mmx=0.005;
+      micanvas= new TCanvas("cHH13 ","migrafico",300,500,550,470);
+      gConstante=1E+4;
+    }
+    //if(data1 >1799 && data1 <1961 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 < 6 ){  
+    if(i==13){
+      //fdatos.open("datos1800GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=1799,mayordat7=1961, mmy=6,mmx=0.005;
+      micanvas= new TCanvas("cYY14 ","migrafico",300,500,550,470);
+      gConstante=0;
+    }
+    micanvas->SetMargin(0.1,0.015,0.1,0.1);
+    //defObjetoMyFunc[i]=gConstante;
+   
+    ifstream data;
+    data.open("data_dsdt.dat",ios::in);//se abre el archivo de lectura
+    
+    if(!data){
+      cerr <<"no data file found "<<endl;
+    }
+    else
+      { 
+        while(!data.eof() && contador <13861){ 
+	  data>>data1;
+	  data>>data2;
+	  data>>data3;
+	  data>>data4;
+	  data>>data5;
+	  data>>data6;
+	  data>>name1;
+	    
+	  if(data1 > menordat7 && data1 < mayordat7 && pp == name1  && data2 >0.005 && data2 < mmx){
+	    kv=data2;
+	    tt[npoints] = data2;
+	    dsdt[npoints] = data3;
+	    edsdt[npoints] = data6;
+	    npoints++;
+	  }//fin if
+	  if(data1 > menordat7 && data1 < mayordat7 && pp == name1  && data2 >mmx && data2 < mmy ){
+	  kc=data2;
+	  tt7[npoints7] = data2;
+	  dsdt7[npoints7] = data3;
+	  edsdt7[npoints7] =data6;
+	  npoints7++;
+	  }//fin if 
+	  contador++;
+	}//fin while
+	
+      } //fin else
+    //fdatos.close();
+    //cout <<npoints  << "\n";
+    
+    //############################################################################################
+       
+    gr= new TGraphErrors(npoints,tt,dsdt,error_e,edsdt);
+    gre3= new TGraphErrors(npoints7,tt7,dsdt7,error_e,edsdt7);
+    gre3->SetMarkerStyle(24);
+    gre3->SetMarkerColor(1);
+    gre3->SetMarkerSize(1);
+    gre3->SetLineColorAlpha(1,1);
+    gr->SetMarkerStyle(23);
+    gr->SetMarkerColor(4);
+    gr->SetMarkerSize(1);
+    gr->SetLineColorAlpha(4,1);
+   
+    gr->Draw("AP");
+    gre3->Draw("AP");
+    //gre3->SetMinimum(1E-7);
+    //gre3->SetMaximum(1E+3);
+    gr->GetXaxis()->SetLimits(-0.5,6.2);
+    gre3->GetXaxis()->SetLimits(-0.5,6.2);
+    //c2->cd(1);
+
+
+    mgl=new TMultiGraph("mgl","");
+    mgl->SetMinimum(1E-3);
+    mgl->SetMaximum(2E+2);
+    mgl->Add(gr);
+    mgl->Add(gre3);
+    mgl->Draw("AP");
+    gPad->SetLogy();
+    mgl->GetYaxis()->SetTitleOffset(0.6);
+    mgl->GetXaxis()->SetTitleSize(0.060);
+    mgl->GetYaxis()->SetTitleSize(0.06);
+    mgl->GetXaxis()->SetLimits(-0.03,1); //gPad->Update();
+
+    
+    mg=new TMultiGraph("mg","d#sigma/dt elastica  p#bar{p}#rightarrow p#bar{p} a #sqrt{s}=19.4 GeV vs. |t|");
+    mg->SetMinimum(1E-8);
+    mg->SetMaximum(2E+2);
+    mg->Add(gr);
+    mg->Add(gre3);
+    mg->Draw("AP");
+    gPad->SetLogy();
+    mg->GetYaxis()->SetTitle("d#sigma/dt (mb/GeV^{2})");
+    mg->GetXaxis()->SetTitle("momento trasferido, |t| (GeV^{2})");
+    mg->GetYaxis()->SetTitleOffset(1.15);
+    mg->GetXaxis()->SetTitleSize(0.038);
+    mg->GetYaxis()->SetTitleSize(0.038);
+    mg->GetXaxis()->SetLimits(-0.1,6); //gPad->Update();
+
+    
+    if(i==0){radioproton=4.5,pomeronElasatico=6,parametroB13=0.012;}
+    if(i==1){radioproton=4.5,pomeronElasatico=6,parametroB13=0.02;}
+    if(i==2){radioproton=6,pomeronElasatico=1.7,parametroB13=0.02;}
+    if(i==3){radioproton=5.8,pomeronElasatico=1.5,parametroB13=0.024;}
+    if(i==4){radioproton=7.5,pomeronElasatico=2.1,parametroB13=0.013;}
+    if(i==5){radioproton=6.5,pomeronElasatico=2.1,parametroB13=0.025;}
+    if(i==6){radioproton=6.6,pomeronElasatico=2.1,parametroB13=0.027;}
+    if(i==7){radioproton=6.7,pomeronElasatico=2.1,parametroB13=0.028;}
+    if(i==8){radioproton=8.0,pomeronElasatico=6.0,parametroB13=0.024;}
+    if(i==9){radioproton=5.2,pomeronElasatico=1.2,parametroB13=0.026;}
+    if(i==10){radioproton=6.7,pomeronElasatico=2.2,parametroB13=0.023;}
+    if(i==11){radioproton=5.8,pomeronElasatico=2.1,parametroB13=0.024;}
+    if(i==12){radioproton=7.1,pomeronElasatico=5.2,parametroB13=0.025;}
+    if(i==13){radioproton=7.6,pomeronElasatico=8.2,parametroB13=0.026;}
+    
+    //MyMainFrame objetoMyFunc(defObjetoMyFunc[i]);
+    //std::cout <<defObjetoMyFunc[i] <<radioproton << "\n";
+
+    f4 = new TF1("funajuste",&MyMainFrame::myFunc,-0.2,8,3);
+    f4->SetLineWidth(2);
+    f4->SetLineColor(2);
+    //f4->SetParameters(radioproton,pomeronElasatico,parametroB13);
+    f4->SetParameter(0,radioproton);
+    f4->SetParameter(1,pomeronElasatico);
+    f4->SetParameter(2,parametroB13);
+    //f4->SetParameter(3,1);
+    //f4->SetParameter(3,3);
+    //f4->FixParameter(0,7.42);
+    f4->SetParLimits(1,1,9);
+    //f4->FixParameter(2,0.0075);
+    f4->SetParNames("r","#alpha_{p}","B_{13}");
+    //gr->Fit(f4);
+    f4->SetNpx(2000);
+    gre3->Fit(f4,"","",-1,6.2);
+    gPad->Update();
+    
+    TPad * const pad1 = new TPad("transparent pad 1", "transparent pad 1",0.37,0.48,0.97,0.883);
+    pad1->SetMargin(0.07,0,0.15,0);//here's the magic!
+    pad1->cd();
+    mgl->Draw("AP");
+    micanvas->cd();
+    pad1->Draw("AP");
+    pad1->SetLogy();
+    
+   
+    /*gStyle->SetOptFit();
+    gStyle->SetStatY(0.88);
+    gStyle->SetStatX(0.88);
+    */
+ 
+    TLegend *legend=new TLegend(0.68,0.74,0.95,0.86);
+    legend->SetTextFont(50);
+    legend->SetTextSize(0.03);
+    legend->AddEntry(gr,"Datos:","lep");
+    legend->AddEntry(gre3,"Datos:","lep");
+    legend->SetFillColor(0);
+    legend->SetBorderSize(0);
+    legend->AddEntry(f4,"Modelo-qQ","l");
+    legend->Draw();
+    gPad->Update();
+
+    TLatex ll;
+    ll.SetTextAlign(20);
+    ll.SetTextFont(42);
+    ll.SetTextSize(0.03);
+    ll.DrawLatex(5.35,20,"|t| < 1.0 GeV^{2}");//texto para |t|
+    ll.DrawLatex(5.35,7,"|t| > 1.0 GeV^{2}");//texto para |t|
+
+    TLatex l;
+    l.SetTextAlign(20);
+    l.SetTextFont(42);
+    l.SetTextSize(0.04);
+    l.DrawLatex(1.5,3E-7,"#chi^{2}/ndf=1.406/3=0.5");
+    l.DrawLatex(1.5,7E-8,"Datos ajustados = 5");
+    l.DrawLatex(3,5E-2," #sigma_{tot} = 41.5 mb");
+    l.DrawLatex(3,1E-2,"         |t|_{min} = 5.0#times10^{-3} GeV^{2}");//\t\min
+    l.DrawLatex(4.6,3E-4,"       r= 7.3 #pm 0.1 GeV^{-2}");
+    l.DrawLatex(4.6,4E-5,"  #alpha_{p}= 1.5 #pm 6.1      ");
+    l.DrawLatex(4.6,10E-6,"             B_{13}= (9.48 #pm 1.92)#times10^{-3}  ");
+    gPad->Update();
+    
+ 
+      matrizRadioProton[i]=log(f4->GetParameter(0));
+      errorRadioProton[i]=(f4->GetParError(0))/(f4->GetParameter(0));
+      matrizEnergias[i]=log(vectorDeEnergiaS[i]*vectorDeRectasPomeron[i]);
+      matrizNormalizacionGlobal[i]=f4->GetParameter(3);
+      errorMatrizNormalizacionGlobal[i]=f4->GetParError(3);
+      matrizB13[i]=f4->GetParameter(2);
+      matrizPomeronElastico[i]=f4->GetParameter(1);
+      errorMatrizPomeronElasatico[i]=f4->GetParError(1);
+      errorMatrizB13[i]=f4->GetParError(2);
+  }
+  char hbr=92,barh=36;
+  std::cout << "########################################################################################################################################" << "\n";
+ for (int i = 2; i < 8; i++) {
+   cout<< fixed<< setprecision(1);
+   cout << vectorDeEnergiaS[i]<<"\t &\t"<<setw(5)
+	<< fixed<< setprecision(3)
+	<< matrizRadioProton[i]<<barh<<hbr<<"pm"<<barh<<setw(5)<<errorRadioProton[i]<<"\t & \t"<<setw(5)
+	<< fixed<< setprecision(2)
+	<< matrizPomeronElastico[i]<<barh<<hbr<<"pm"<<barh<<setw(5)<< errorMatrizPomeronElasatico[i]<<"\t &\t"<<setw(5)
+     	<< scientific<< setprecision(2)
+	<<matrizB13[i]<<barh<<hbr<<"pm"<<barh<<setw(5)<<  scientific<< setprecision(0)<<errorMatrizB13[i]<<hbr<<"\\ \n";
+ }
+ std::cout << "#######################################################################################################################################" << "\n";
+  /*
+    int j=0,k=0;
+    for (int i = 0; i < 14; i++) {
+    if(matrizRadioProton[i]>1.9 && matrizEnergias[i]<5){
+    parRadioProMenores[j]=matrizRadioProton[i];
+    errorParRadioProMenores[j]=errorRadioProton[i];
+    otraEnergiaProMenores[j]=matrizEnergias[i];
+    
+    j=j+1;  
+    }
+    else {
+    parRadioProMayores[k]=matrizRadioProton[i];
+    errorParRadioProMayores[k]=errorRadioProton[i];
+    otraEnergiaProMayores[k]=matrizEnergias[i];
+    k=k+1;
+    }
+    }
+*/
+    TGraphErrors *fitRadioProton =new TGraphErrors(6,matrizEnergias,matrizRadioProton,0,errorRadioProton);
+    fitRadioProton->SetMarkerStyle(24);
+    fitRadioProton->SetMarkerColor(1);
+    fitRadioProton->SetMarkerSize(1);
+    fitRadioProton->SetLineColorAlpha(1,1);
+    fitRadioProton->SetMinimum(1);
+    fitRadioProton->SetMaximum(3);
+    fitRadioProton->GetXaxis()->SetLimits(1,6.2);
+    fitRadioProton->Draw("AP");
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,206 @@
+#include<iostream>
+#include<fstream>
+#include<string>
+
+//#include "TMinuit.h"
+using namespace std;
+
+float* ajustedata(int i){
+  //TVirtualFitter::SetDefaultFitter("Minuit");
+   float menordat7=0,mayordat7=0, mmy=0;
+  ofstream fdatos;
+  double rangoX=0;
+
+  int contador=0, npoints=0;
+  float tt[500]={0};
+  float dsdt[500]={0};
+  float edsdt[500]={0};
+  float error_e[500]={0};
+  float data1=0,data2=0,data3=0,data4=0, data5=0, data6=0;
+  string name1;//[20];
+  //string collision_pp="pp_ds/dt";
+  //string collision_ppbar="pbarp_ds/dt";
+
+    //############# Proton-proton ####################
+    //if(data1 > 6900 && data1 < 7100 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 <3){
+    if(i==1){
+      //fdatos.open("datos7TeV.txt",ios::out);//se crea una archivo de escritura
+      pp="pp_ds/dt";
+      menordat7=6900;
+      mayordat7=7100;
+      mmy=3;
+      rangoX=2.6;
+// TCanvas *c1= new TCanvas("c1","migrafico",300,500,550,470);
+     }
+    //if(data1 > 23.4 && data1 < 23.51/*&& data3 > 1E-5 && data3<10*/ && collision_pp == name1  && data2 >0.005 && data2 <8 ){
+    if(i==2){
+      //fdatos.open("datos23GeV.txt",ios::out);//se crea una archivo de escritura
+      pp="pp_ds/dt";
+      menordat7=23.4;
+      mayordat7=23.51;
+      mmy=8;
+      rangoX = 2.5;
+// TCanvas *c2= new TCanvas("c2 ","migrafico",300,500,550,470);
+    }
+
+ //if(data1 > 19.3 && data1 <19.5 && data3 > 1E-5 && data3<10 && collision_pp == name1  && data2 >0.005 && data2 <3 ){
+    if(i==3){
+      //fdatos.open("datos19GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=19.3,mayordat7=19.5, mmy=3;
+//    TCanvas *c2= new TCanvas("c3 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 30.65 && data1 <31 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==4){
+      //fdatos.open("datos30GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=30.65,mayordat7=31, mmy=6;
+//  TCanvas *c2= new TCanvas("c4 ","migrafico",300,500,550,470);
+    }
+    //if(data1 >44.6 && data1 <44.7 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==5){
+      //fdatos.open("datos44GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=44.6,mayordat7=44.7, mmy=6;
+//    TCanvas *c2= new TCanvas("c5 ","migrafico",300,500,550,470);
+    }
+    //if(data1 >52.8 && data1 <53.1 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==6){
+      //fdatos.open("datos52GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=52.8,mayordat7=53.1, mmy=6;
+      TCanvas *c2= new TCanvas("c6 ","migrafico",300,500,550,470);
+    }
+    //if(data1 >62.4 && data1 <62.6 && data3 > 2E-8 /*&& data3<10*/ && collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==7){
+      //fdatos.open("datos62GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=62.4,mayordat7=62.6, mmy=6;
+//     TCanvas *c2= new TCanvas("c7 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 4.6 && data1 < 4.63 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6){
+    if(i==8){
+      //fdatos.open("datos4GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=4.6,mayordat7=4.63, mmy=6;
+//      TCanvas *c2= new TCanvas("c8 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 9.7 && data1 < 9.8 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6){
+    if(i==9){
+      //fdatos.open("datos9GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=9.7,mayordat7=9.8, mmy=6;
+//     TCanvas *c2= new TCanvas("c9 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 13.7 && data1 < 13.8 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6){
+    if(i==10){
+      //fdatos.open("datos13GeV.txt",ios::out);
+       pp="pp_ds/dt";
+       menordat7=13.7,mayordat7=13.8, mmy=6;
+//       TCanvas *c2= new TCanvas("c91 ","migrafico",300,500,550,470);
+    }
+    //############# Proton-antiproton ####################
+    //if(data1 > 19.3 && data1 <19.5 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1 && data2 >0.005 && data2 < 6 ){
+    if(i==11){
+      //fdatos.open("datos19GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=19.3,mayordat7=19.5, mmy=6;
+//       TCanvas *c2= new TCanvas("c10 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 52.89 && data1 < 53.1 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1 && data2 >0.005 && data2 < 6 ){
+    if(i==12){
+      //fdatos.open("datos53GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=52.89,mayordat7=53.1, mmy=6;
+//      TCanvas *c2= new TCanvas("c11 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 545 && data1 < 547 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==13){
+      //fdatos.open("datos546GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=545,mayordat7=547, mmy=6;
+//     TCanvas *c2= new TCanvas("c12 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 629 && data1 <631 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==14){
+      //fdatos.open("datos630GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=629,mayordat7=631, mmy=6;
+//     TCanvas *c2= new TCanvas("c13 ","migrafico",300,500,550,470);
+    }
+    //if(data1 >1799 && data1 <1961 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 < 6 ){  
+    if(i==15){
+      //fdatos.open("datos1800GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=1799,mayordat7=1961, mmy=6;
+//      TCanvas *c2= new TCanvas("c14 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 1958 && data1 < 1961 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==16){
+      //fdatos.open("datos1960GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=1958,mayordat7=1961, mmy=6;
+//      TCanvas *c2= new TCanvas("c15 ","migrafico",300,500,550,470);
+    }
+
+    
+    ifstream data;
+    data.open("data_dsdt.dat",ios::in);//se abre el archivo de lectura
+    
+    if(!data){
+      cerr <<"no data file found "<<endl;
+    }
+    else
+      { 
+        while(!data.eof() && contador <13861){ 
+	  data>>data1;
+	  data>>data2;
+	  data>>data3;
+	  data>>data4;
+	  data>>data5;
+	  data>>data6;
+	  data>>name1;
+	    
+	  if(data1 > menordat7 && data1 < mayordat7 && pp == name1  && data2 >0.005 && data2 <mmy ){
+	    tt[npoints] = data2;
+	    dsdt[npoints] = data3;
+	    edsdt[npoints] = data6;
+	    //cout << tt[npoints] <<"\t\t"<< dsdt[npoints] <<"\t\t" <<0<<"\t\t"<<edsdt[npoints] <<"\n";	  
+	    //fdatos << tt[npoints] <<"\t\t"<< dsdt[npoints] <<"\t\t" <<0<<"\t\t"<<edsdt[npoints] <<"\n";
+	    npoints++;
+	    
+	  }//fin if 
+	  contador++;
+	}//fin while
+	
+      }//fin else
+       //fdatos.close();
+
+    float **ppunt;
+    float *punt[3];
+    
+    punt[0]=tt;
+    punt[1]=dsdt;
+    punt[2]=edsdt;
+    ppunt=punt;
+    std::cout <<tt<<"\t"<< ppunt[0] <<"\t"<<punt[0]<<"\n";
+    return ppunt;
+}
+
+
+
+  
+ 
+  
+  
+  
+  
+  
+  
+	  
+ 
+
+ 
+ 
+  
+ 

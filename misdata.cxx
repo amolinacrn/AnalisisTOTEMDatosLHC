@@ -1,0 +1,217 @@
+#include<iostream>
+#include<fstream>
+#include<string>
+#include"seccioneficaz.h"
+//#include "TMinuit.h"
+using namespace std;
+
+float** MyMainFrame::misData(int i){
+  //TVirtualFitter::SetDefaultFitter("Minuit");
+  float menordat7=0,mayordat7=0, mmy=0;
+  ofstream fdatos;
+  double rangoX=0;
+  string pp="pp_ds/dt";
+  int contador=0, npoints=0;
+  double gConstante=0;
+  
+  float tt[400]={0};
+  float dsdt[400]={0};
+  float edsdt[400]={0};
+  float error_e[400]={0};
+  float data1=0,data2=0,data3=0,data4=0, data5=0, data6=0;
+  string name1;//[20];
+  //string collision_pp="pp_ds/dt";
+  //string collision_ppbar="pbarp_ds/dt";
+  
+  //############# Proton-proton ####################
+  //if(data1 > 9.7 && data1 < 9.8 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6)
+  if(i==0){
+    gConstante=1E+22;
+    fdatos.open("datos9GeV.txt",ios::out); 
+    pp="pp_ds/dt";
+    menordat7=9.7,mayordat7=9.8, mmy=6;
+    TCanvas *zxc0v= new TCanvas("xxc3vv0","migrafico",300,500,550,470);
+    
+  }
+  
+  //if(data1 > 13.7 && data1 < 13.8 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 < 6)
+  if(i==1){
+    gConstante=1E+19;
+    fdatos.open("datos13GeV.txt",ios::out); 
+    pp="pp_ds/dt";
+    menordat7=13.7,mayordat7=13.8, mmy=6;
+    TCanvas *c0v= new TCanvas("c3vv0","migrafico",300,500,550,470);
+  }
+  
+  //if(data1 > 19.3 && data1 <19.5 && data3 > 1E-5 && data3<10 && collision_pp == name1  && data2 >0.005 && data2 <3 )
+  if(i==2){
+    gConstante=1E+16;
+    fdatos.open("datos19GeV.txt",ios::out); 
+    pp="pp_ds/dt";
+    menordat7=19.3,mayordat7=19.5, mmy=6;
+    TCanvas *c0= new TCanvas("c30","migrafico",300,500,550,470);
+  }
+  
+  //if(data1 >23.4 && data1 < 23.51/*&& data3 > 1E-5 && data3<10*/ && collision_pp == name1  && data2 >0.005 && data2<8 )
+  if(i==3){
+    gConstante=1E+13;
+    fdatos.open("datos23GeV.txt",ios::out);//se crea una archivo de escritura
+    pp="pp_ds/dt";
+    menordat7=23.4;
+    mayordat7=23.51;
+    mmy=8;
+    rangoX = 2.5;
+    TCanvas *c2x= new TCanvas("micanvas1","migrafico",300,500,550,470);
+  }
+  
+  //if(data1 > 30.65 && data1 <31 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+  if(i==4){
+    gConstante=1E+10;
+    fdatos.open("datos30GeV.txt",ios::out);
+    pp="pp_ds/dt";
+    menordat7=30.65,mayordat7=31, mmy=6;
+    TCanvas *c2xx= new TCanvas("cX4","migrafico",300,500,550,470);
+  }
+  //if(data1 >44.6 && data1 <44.7 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+  if(i==5){
+    gConstante=1E+7;
+    fdatos.open("datos44GeV.txt",ios::out);
+    pp="pp_ds/dt";
+    menordat7=44.6,mayordat7=44.7, mmy=6;
+    TCanvas *c2xxx= new TCanvas("cV5","migrafico",300,500,550,470);
+  }
+  //if(data1 >52.8 && data1 <53.1 /*&& data3 > 1E-5 && data3<10 */&& collision_pp == name1  && data2 >0.005 && data2 <6 ){
+  if(i==6){
+    gConstante=1E+3;
+    fdatos.open("datos52GeV.txt",ios::out);
+    pp="pp_ds/dt";
+    menordat7=52.8,mayordat7=53.1, mmy=6;
+      TCanvas *c2c= new TCanvas("cT6","migrafico",300,500,550,470);
+    }
+    //if(data1 >62.4 && data1 <62.6 && data3 > 2E-8 /*&& data3<10*/ && collision_pp == name1  && data2 >0.005 && data2 <6 ){
+    if(i==7){
+      gConstante =1;
+      fdatos.open("datos62GeV.txt",ios::out);
+      pp="pp_ds/dt";
+      menordat7=62.4,mayordat7=62.6, mmy=6;
+      TCanvas *c2cc= new TCanvas("Hc7","migrafico",300,500,550,470);
+    }
+     //if(data1 > 6900 && data1 < 7100 /*&& data6 < data3*/&& collision_pp == name1&& data2 >0.005 && data2 <3){
+    if(i==8){
+      gConstante=1E-5;
+     fdatos.open("datos7TeV.txt",ios::out);//se crea una archivo de escritura
+      pp="pp_ds/dt";
+      menordat7=6900;
+      mayordat7=7100;
+      mmy=3;
+      rangoX=2.6;
+      TCanvas *c1ccc= new TCanvas("cA1","migrafico",300,500,550,470);
+     }
+       
+    
+   //############# Proton-antiproton ####################
+    //if(data1 > 19.3 && data1 <19.5 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1 && data2 >0.005 && data2 < 6 ){
+    if(i==9){
+      gConstante=1E+3;
+      fdatos.open("datos19GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=19.3,mayordat7=19.5, mmy=6;
+      TCanvas *c2= new TCanvas("cG10 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 52.89 && data1 < 53.1 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1 && data2 >0.005 && data2 < 6 ){
+    if(i==10){
+      gConstante=1;
+      fdatos.open("datos53GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=52.89,mayordat7=53.1, mmy=6;
+      TCanvas *c2= new TCanvas("cZZ11 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 545 && data1 < 547 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==11){
+      gConstante=1E+5;
+      fdatos.open("datos546GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=545,mayordat7=547, mmy=6;
+      TCanvas *c2= new TCanvas("cDD12 ","migrafico",300,500,550,470);
+    }
+    //if(data1 > 629 && data1 <631 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 <6 ){
+    if(i==12){
+      gConstante=1E+3;
+      fdatos.open("datos630GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=629,mayordat7=631, mmy=6;
+      TCanvas *c2= new TCanvas("cHH13 ","migrafico",300,500,550,470);
+    }
+    //if(data1 >1799 && data1 <1961 /*&& data3 > 1E-5 && data3<10*/ && collision_ppbar == name1  && data2 >0.005 && data2 < 6 ){  
+    if(i==13){
+      gConstante=1;
+      fdatos.open("datos1800GeVbar.txt",ios::out);
+      pp="pbarp_ds/dt";
+      menordat7=1799,mayordat7=1961, mmy=6;
+      TCanvas *c2= new TCanvas("cYY14 ","migrafico",300,500,550,470);
+    }
+      
+    ifstream data;
+    data.open("data_dsdt.dat",ios::in);//se abre el archivo de lectura
+    
+    if(!data){
+      cerr <<"no data file found "<<endl;
+    }
+    else
+      { 
+        while(!data.eof() && contador <13861){ 
+	  data>>data1;
+	  data>>data2;
+	  data>>data3;
+	  data>>data4;
+	  data>>data5;
+	  data>>data6;
+	  data>>name1;
+	    
+	  if(data1 > menordat7 && data1 < mayordat7 && pp == name1  && data2 >0.005 && data2 <mmy ){
+	    tt[npoints] = data2;
+	    dsdt[npoints] = (data3);//*gConstante;
+	    edsdt[npoints] = (data6);//*gConstante;
+	    //cout << tt[npoints] <<"\t\t"<< dsdt[npoints] <<"\t\t" <<0<<"\t\t"<<edsdt[npoints] <<"\n";	  
+	    //fdatos << tt[npoints] <<"\t\t"<< dsdt[npoints] <<"\t\t" <<0<<"\t\t"<<edsdt[npoints] <<"\n";
+	    npoints++;
+	    
+	  }//fin if 
+	  contador++;
+	}//fin while
+	
+      }//fin else
+       fdatos.close();
+    //cout <<npoints  << "\n";    
+     
+    float contadornpoints[1];
+    contadornpoints[0]=npoints;
+    float **ppunt;
+    float *punt[4];
+    punt[0]=contadornpoints;   
+    punt[1]=tt;
+    punt[2]=dsdt;
+    punt[3]=edsdt;
+    ppunt=punt;
+    
+   
+    return ppunt;//retorna matriz de punteros
+}
+
+
+
+  
+ 
+  
+  
+  
+  
+  
+  
+	  
+ 
+
+ 
+ 
+  
+ 
