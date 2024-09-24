@@ -41,25 +41,28 @@ Los resultados del modelo quark-diquark muestran una buena concordancia con los 
 
 # Lista de Archivos PDF
 
-- [ajuste19pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste19pp.pdf)
-- [ajuste53pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste53pbar_p.pdf)
-- [multifitl.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifitl.pdf)
-- [unnamed1.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed1.pdf)
-- [ajuste19pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste19pp.pdf)
-- [ajuste53pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste53pp.pdf)
-- [multifit.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifit.pdf)
-- [unnamedpbarp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamedpbarp.pdf)
-- [ajuste23pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste23pp.pdf)
-- [ajuste62pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste62pp.pdf)
-- [radioprotonNg.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/radioprotonNg.pdf)
-- [unnamed.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed.pdf)
-- [ajuste30pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste30pp.pdf)
-- [grafsigma.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/grafsigma.pdf)
-- [radioproton.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/radioproton.pdf)
-- [unnamedp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamedp.pdf)
-- [ajuste44pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste44pp.pdf)
-- [multifitgraf.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifitgraf.pdf)
-- [unnamed1pbar.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed1pbar.pdf)
+# Lista de Archivos PDF
+
+- [ajuste19pbar_p.pdf](multifit/ajuste19pbar_p.pdf)
+- [ajuste53pbar_p.pdf](multifit/ajuste53pbar_p.pdf)
+- [multifitl.pdf](multifit/multifitl.pdf)
+- [unnamed1.pdf](multifit/unnamed1.pdf)
+- [ajuste19pp.pdf](multifit/ajuste19pp.pdf)
+- [ajuste53pp.pdf](multifit/ajuste53pp.pdf)
+- [multifit.pdf](multifit/multifit.pdf)
+- [unnamedpbarp.pdf](multifit/unnamedpbarp.pdf)
+- [ajuste23pp.pdf](multifit/ajuste23pp.pdf)
+- [ajuste62pp.pdf](multifit/ajuste62pp.pdf)
+- [radioprotonNg.pdf](multifit/radioprotonNg.pdf)
+- [unnamed.pdf](multifit/unnamed.pdf)
+- [ajuste30pp.pdf](multifit/ajuste30pp.pdf)
+- [grafsigma.pdf](multifit/grafsigma.pdf)
+- [radioproton.pdf](multifit/radioproton.pdf)
+- [unnamedp.pdf](multifit/unnamedp.pdf)
+- [ajuste44pp.pdf](multifit/ajuste44pp.pdf)
+- [multifitgraf.pdf](multifit/multifitgraf.pdf)
+- [unnamed1pbar.pdf](multifit/unnamed1pbar.pdf)
+
 
 
 
