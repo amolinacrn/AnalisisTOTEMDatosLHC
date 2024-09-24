@@ -41,12 +41,11 @@ Los resultados del modelo quark-diquark muestran una buena concordancia con los 
 
 Aquí están las imágenes generadas:
 
-| Imagen 1                               | Imagen 2                               |
+
 |----------------------------------------|----------------------------------------|
 | ![ajuste19pbar_p](multifit/ajuste19pbar_p.png) | ![ajuste53pbar_p](multifit/ajuste53pbar_p.png) |
 | ![multifitgraf](multifit/multifitgraf.png) | ![unnamed1pbar](multifit/unnamed1pbar.png) |
 | ![ajuste19pp](multifit/ajuste19pp.png) | ![ajuste53pp](multifit/ajuste53pp.png) |
-| ![multifitl](multifit/multifitl.png) | ![unnamed1](multifit/unnamed1.png) |
 | ![ajuste23pp](multifit/ajuste23pp.png) | ![ajuste62pp](multifit/ajuste62pp.png) |
 | ![multifit](multifit/multifit.png) | ![unnamedpbarp](multifit/unnamedpbarp.png) |
 | ![ajuste30pp](multifit/ajuste30pp.png) | ![grafsigma](multifit/grafsigma.png) |
