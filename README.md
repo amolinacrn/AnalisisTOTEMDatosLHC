@@ -41,7 +41,7 @@ Los resultados del modelo quark-diquark muestran una buena concordancia con los 
 
 # Lista de Archivos PDF
 
-- [ajuste19pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste19pbar_p.pdf)
+- [ajuste19pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste19pp.pdf)
 - [ajuste53pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste53pbar_p.pdf)
 - [multifitl.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifitl.pdf)
 - [unnamed1.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed1.pdf)
