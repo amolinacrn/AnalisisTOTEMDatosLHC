@@ -38,26 +38,28 @@ Se estudian diferentes configuraciones de estos componentes para extraer informa
 Los resultados del modelo quark-diquark muestran una buena concordancia con los datos experimentales de dispersión elástica a altas energías. Las amplitudes calculadas se alinean con las observaciones, lo que sugiere que este enfoque puede ser efectivo para describir las interacciones nucleares.
 
 
-![Ajuste 19 pbar](multifit/ajuste19pbar_p.png)
-![Ajuste 53 pbar](multifit/ajuste53pbar_p.png)
-![Multifit graf](multifit/multifitgraf.png)
-![Unnamed 1 pbar](multifit/unnamed1pbar.png)
-![Ajuste 19 pp](multifit/ajuste19pp.png)
-![Ajuste 53 pp](multifit/ajuste53pp.png)
-![Multifit l](multifit/multifitl.png)
-![Unnamed 1](multifit/unnamed1.png)
-![Ajuste 23 pp](multifit/ajuste23pp.png)
-![Ajuste 62 pp](multifit/ajuste62pp.png)
-![Multifit](multifit/multifit.png)
-![Unnamed pbarp](multifit/unnamedpbarp.png)
-![Ajuste 30 pp](multifit/ajuste30pp.png)
-![Graf sigma](multifit/grafsigma.png)
-![Radioproton Ng](multifit/radioprotonNg.png)
-![Unnamed](multifit/unnamed.png)
-![Ajuste 44 pp](multifit/ajuste44pp.png)
-![Img totem 0](multifit/imgtotem0.png)
-![Radioproton](multifit/radioproton.png)
-![Unnamed p](multifit/unnamedp.png)
+
+<img src="multifit/ajuste19pbar_p.png" width="50%">
+<img src="multifit/ajuste53pbar_p.png" width="50%">
+<img src="multifit/multifitgraf.png" width="50%">
+<img src="multifit/unnamed1pbar.png" width="50%">
+<img src="multifit/ajuste19pp.png" width="50%">
+<img src="multifit/ajuste53pp.png" width="50%">
+<img src="multifit/multifitl.png" width="50%">
+<img src="multifit/unnamed1.png" width="50%">
+<img src="multifit/ajuste23pp.png" width="50%">
+<img src="multifit/ajuste62pp.png" width="50%">
+<img src="multifit/multifit.png" width="50%">
+<img src="multifit/unnamedpbarp.png" width="50%">
+<img src="multifit/ajuste30pp.png" width="50%">
+<img src="multifit/grafsigma.png" width="50%">
+<img src="multifit/radioprotonNg.png" width="50%">
+<img src="multifit/unnamed.png" width="50%">
+<img src="multifit/ajuste44pp.png" width="50%">
+<img src="multifit/imgtotem0.png" width="50%">
+<img src="multifit/radioproton.png" width="50%">
+<img src="multifit/unnamedp.png" width="50%">
+
 
 ## Conclusiones
 
