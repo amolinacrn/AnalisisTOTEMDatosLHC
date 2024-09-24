@@ -37,9 +37,7 @@ Se estudian diferentes configuraciones de estos componentes para extraer informa
 
 Los resultados del modelo quark-diquark muestran una buena concordancia con los datos experimentales de dispersión elástica a altas energías. Las amplitudes calculadas se alinean con las observaciones, lo que sugiere que este enfoque puede ser efectivo para describir las interacciones nucleares.
 
-# Imágenes de la Tesis
-
-Aquí están las imágenes generadas:
+# Imágenes generadas en el proyecto
 
 |                                        |                                        |
 |----------------------------------------|----------------------------------------|
