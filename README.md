@@ -44,8 +44,8 @@ Los resultados del modelo quark-diquark muestran una buena concordancia con los 
 | ![ajuste19pp](multifit/ajuste19pp.png) | ![ajuste53pp](multifit/ajuste53pp.png) |
 | ![ajuste23pp](multifit/ajuste23pp.png) | ![ajuste62pp](multifit/ajuste62pp.png) |
 | ![multifit](multifit/multifit.png) | ![unnamedpbarp](multifit/unnamedpbarp.png) |
-| ![ajuste30pp](multifit/ajuste30pp.png) | ![grafsigma](multifit/grafsigma.png) |
-| ![radioprotonNg](multifit/radioprotonNg.png) | ![unnamed](multifit/unnamed.png) |
+| ![ajuste30pp](multifit/ajuste30pp.png) | ![grafsigma](multifit/radioprotonNg.png) |
+
   
 
 El modelo quark-diquark, con la implementación de la normalización global, proporciona una herramienta útil para el estudio de las interacciones protones-protones. Los hallazgos destacan la importancia de considerar la estructura interna de los protones para entender mejor las dinámicas de las colisiones a altas energías.
