@@ -42,79 +42,18 @@ Los resultados del modelo quark-diquark muestran una buena concordancia con los 
 
 Aquí están las imágenes generadas:
 
-<div style="display: flex; flex-wrap: wrap;">
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste19pbar_p.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste53pbar_p.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/multifitgraf.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/unnamed1pbar.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste19pp.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste53pp.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/multifitl.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/unnamed1.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste23pp.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste62pp.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/multifit.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/unnamedpbarp.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste30pp.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/grafsigma.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/radioprotonNg.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/unnamed.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/ajuste44pp.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/imgtotem0.png" width="50%">
-    </div>
-
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/radioproton.png" width="50%">
-    </div>
-    <div style="flex: 1; margin: 10px;">
-        <img src="multifit/unnamedp.png" width="50%">
-    </div>
-
-</div>
+| Imagen 1                               | Imagen 2                               |
+|----------------------------------------|----------------------------------------|
+| ![ajuste19pbar_p](multifit/ajuste19pbar_p.png){: width=50%} | ![ajuste53pbar_p](multifit/ajuste53pbar_p.png){: width=50%} |
+| ![multifitgraf](multifit/multifitgraf.png){: width=50%} | ![unnamed1pbar](multifit/unnamed1pbar.png){: width=50%} |
+| ![ajuste19pp](multifit/ajuste19pp.png){: width=50%} | ![ajuste53pp](multifit/ajuste53pp.png){: width=50%} |
+| ![multifitl](multifit/multifitl.png){: width=50%} | ![unnamed1](multifit/unnamed1.png){: width=50%} |
+| ![ajuste23pp](multifit/ajuste23pp.png){: width=50%} | ![ajuste62pp](multifit/ajuste62pp.png){: width=50%} |
+| ![multifit](multifit/multifit.png){: width=50%} | ![unnamedpbarp](multifit/unnamedpbarp.png){: width=50%} |
+| ![ajuste30pp](multifit/ajuste30pp.png){: width=50%} | ![grafsigma](multifit/grafsigma.png){: width=50%} |
+| ![radioprotonNg](multifit/radioprotonNg.png){: width=50%} | ![unnamed](multifit/unnamed.png){: width=50%} |
+| ![ajuste44pp](multifit/ajuste44pp.png){: width=50%} | ![imgtotem0](multifit/imgtotem0.png){: width=50%} |
+| ![radioproton](multifit/radioproton.png){: width=50%} | ![unnamedp](multifit/unnamedp.png){: width=50%} |
 
 
 
