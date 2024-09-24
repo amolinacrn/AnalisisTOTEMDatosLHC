@@ -38,27 +38,84 @@ Se estudian diferentes configuraciones de estos componentes para extraer informa
 Los resultados del modelo quark-diquark muestran una buena concordancia con los datos experimentales de dispersión elástica a altas energías. Las amplitudes calculadas se alinean con las observaciones, lo que sugiere que este enfoque puede ser efectivo para describir las interacciones nucleares.
 
 
+# Imágenes de la Tesis
 
-<img src="multifit/ajuste19pbar_p.png" width="50%">
-<img src="multifit/ajuste53pbar_p.png" width="50%">
-<img src="multifit/multifitgraf.png" width="50%">
-<img src="multifit/unnamed1pbar.png" width="50%">
-<img src="multifit/ajuste19pp.png" width="50%">
-<img src="multifit/ajuste53pp.png" width="50%">
-<img src="multifit/multifitl.png" width="50%">
-<img src="multifit/unnamed1.png" width="50%">
-<img src="multifit/ajuste23pp.png" width="50%">
-<img src="multifit/ajuste62pp.png" width="50%">
-<img src="multifit/multifit.png" width="50%">
-<img src="multifit/unnamedpbarp.png" width="50%">
-<img src="multifit/ajuste30pp.png" width="50%">
-<img src="multifit/grafsigma.png" width="50%">
-<img src="multifit/radioprotonNg.png" width="50%">
-<img src="multifit/unnamed.png" width="50%">
-<img src="multifit/ajuste44pp.png" width="50%">
-<img src="multifit/imgtotem0.png" width="50%">
-<img src="multifit/radioproton.png" width="50%">
-<img src="multifit/unnamedp.png" width="50%">
+Aquí están las imágenes generadas:
+
+<div style="display: flex; flex-wrap: wrap;">
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste19pbar_p.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste53pbar_p.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/multifitgraf.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/unnamed1pbar.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste19pp.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste53pp.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/multifitl.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/unnamed1.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste23pp.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste62pp.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/multifit.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/unnamedpbarp.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste30pp.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/grafsigma.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/radioprotonNg.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/unnamed.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/ajuste44pp.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/imgtotem0.png" width="50%">
+    </div>
+
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/radioproton.png" width="50%">
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <img src="multifit/unnamedp.png" width="50%">
+    </div>
+
+</div>
+
 
 
 ## Conclusiones
