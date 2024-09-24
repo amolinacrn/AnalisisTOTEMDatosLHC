@@ -39,25 +39,28 @@ Los resultados del modelo quark-diquark muestran una buena concordancia con los 
 
 # Lista de Archivos PDF
 
-- [/ajuste19pbar_p.pdf](./Imagenes/figurastesis/graficas/ajuste19pbar_p.pdf)
-- [/ajuste53pbar_p.pdf](./Imagenes/figurastesis/graficas/ajuste53pbar_p.pdf)
-- [/multifitl.pdf](./Imagenes/figurastesis/graficas/multifitl.pdf)
-- [/unnamed1.pdf](./Imagenes/figurastesis/graficas/unnamed1.pdf)
-- [/ajuste19pp.pdf](./Imagenes/figurastesis/graficas/ajuste19pp.pdf)
-- [/ajuste53pp.pdf](./Imagenes/figurastesis/graficas/ajuste53pp.pdf)
-- [/multifit.pdf](./Imagenes/figurastesis/graficas/multifit.pdf)
-- [/unnamedpbarp.pdf](./Imagenes/figurastesis/graficas/unnamedpbarp.pdf)
-- [/ajuste23pp.pdf](./Imagenes/figurastesis/graficas/ajuste23pp.pdf)
-- [/ajuste62pp.pdf](./Imagenes/figurastesis/graficas/ajuste62pp.pdf)
-- [/radioprotonNg.pdf](./Imagenes/figurastesis/graficas/radioprotonNg.pdf)
-- [/unnamed.pdf](./Imagenes/figurastesis/graficas/unnamed.pdf)
-- [/ajuste30pp.pdf](./Imagenes/figurastesis/graficas/ajuste30pp.pdf)
-- [/grafsigma.pdf](./Imagenes/figurastesis/graficas/grafsigma.pdf)
-- [/radioproton.pdf](./Imagenes/figurastesis/graficas/radioproton.pdf)
-- [/unnamedp.pdf](./Imagenes/figurastesis/graficas/unnamedp.pdf)
-- [/ajuste44pp.pdf](./Imagenes/figurastesis/graficas/ajuste44pp.pdf)
-- [/multifitgraf.pdf](./Imagenes/figurastesis/graficas/multifitgraf.pdf)
-- [/unnamed1pbar.pdf](./Imagenes/figurastesis/graficas/unnamed1pbar.pdf)
+# Lista de Archivos PDF
+
+- [ajuste19pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste19pbar_p.pdf)
+- [ajuste53pbar_p.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste53pbar_p.pdf)
+- [multifitl.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifitl.pdf)
+- [unnamed1.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed1.pdf)
+- [ajuste19pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste19pp.pdf)
+- [ajuste53pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste53pp.pdf)
+- [multifit.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifit.pdf)
+- [unnamedpbarp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamedpbarp.pdf)
+- [ajuste23pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste23pp.pdf)
+- [ajuste62pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste62pp.pdf)
+- [radioprotonNg.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/radioprotonNg.pdf)
+- [unnamed.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed.pdf)
+- [ajuste30pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste30pp.pdf)
+- [grafsigma.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/grafsigma.pdf)
+- [radioproton.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/radioproton.pdf)
+- [unnamedp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamedp.pdf)
+- [ajuste44pp.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/ajuste44pp.pdf)
+- [multifitgraf.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/multifitgraf.pdf)
+- [unnamed1pbar.pdf](TesisLATEXAnalisiDatosTOTEM/Imagenes/figurastesis/graficas/unnamed1pbar.pdf)
+
 
 
 ## Conclusiones
