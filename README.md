@@ -37,6 +37,29 @@ Se estudian diferentes configuraciones de estos componentes para extraer informa
 
 Los resultados del modelo quark-diquark muestran una buena concordancia con los datos experimentales de dispersión elástica a altas energías. Las amplitudes calculadas se alinean con las observaciones, lo que sugiere que este enfoque puede ser efectivo para describir las interacciones nucleares.
 
+# Lista de Archivos PDF
+
+- [/ajuste19pbar_p.pdf](./Imagenes/figurastesis/graficas/ajuste19pbar_p.pdf)
+- [/ajuste53pbar_p.pdf](./Imagenes/figurastesis/graficas/ajuste53pbar_p.pdf)
+- [/multifitl.pdf](./Imagenes/figurastesis/graficas/multifitl.pdf)
+- [/unnamed1.pdf](./Imagenes/figurastesis/graficas/unnamed1.pdf)
+- [/ajuste19pp.pdf](./Imagenes/figurastesis/graficas/ajuste19pp.pdf)
+- [/ajuste53pp.pdf](./Imagenes/figurastesis/graficas/ajuste53pp.pdf)
+- [/multifit.pdf](./Imagenes/figurastesis/graficas/multifit.pdf)
+- [/unnamedpbarp.pdf](./Imagenes/figurastesis/graficas/unnamedpbarp.pdf)
+- [/ajuste23pp.pdf](./Imagenes/figurastesis/graficas/ajuste23pp.pdf)
+- [/ajuste62pp.pdf](./Imagenes/figurastesis/graficas/ajuste62pp.pdf)
+- [/radioprotonNg.pdf](./Imagenes/figurastesis/graficas/radioprotonNg.pdf)
+- [/unnamed.pdf](./Imagenes/figurastesis/graficas/unnamed.pdf)
+- [/ajuste30pp.pdf](./Imagenes/figurastesis/graficas/ajuste30pp.pdf)
+- [/grafsigma.pdf](./Imagenes/figurastesis/graficas/grafsigma.pdf)
+- [/radioproton.pdf](./Imagenes/figurastesis/graficas/radioproton.pdf)
+- [/unnamedp.pdf](./Imagenes/figurastesis/graficas/unnamedp.pdf)
+- [/ajuste44pp.pdf](./Imagenes/figurastesis/graficas/ajuste44pp.pdf)
+- [/multifitgraf.pdf](./Imagenes/figurastesis/graficas/multifitgraf.pdf)
+- [/unnamed1pbar.pdf](./Imagenes/figurastesis/graficas/unnamed1pbar.pdf)
+
+
 ## Conclusiones
 
 El modelo quark-diquark, con la implementación de la normalización global, proporciona una herramienta útil para el estudio de las interacciones protones-protones. Los hallazgos destacan la importancia de considerar la estructura interna de los protones para entender mejor las dinámicas de las colisiones a altas energías.
