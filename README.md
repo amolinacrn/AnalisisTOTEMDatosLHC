@@ -37,23 +37,16 @@ Se estudian diferentes configuraciones de estos componentes para extraer informa
 
 Los resultados del modelo quark-diquark muestran una buena concordancia con los datos experimentales de dispersión elástica a altas energías. Las amplitudes calculadas se alinean con las observaciones, lo que sugiere que este enfoque puede ser efectivo para describir las interacciones nucleares.
 
-
-| Imagen 1                               | Imagen 2                               |
-|----------------------------------------|----------------------------------------|
-| ![ajuste19pbar_p](multifit/ajuste19pbar_p.png){: width=50%} | ![ajuste53pbar_p](multifit/ajuste53pbar_p.png){: width=50%} |
-| ![multifitgraf](multifit/multifitgraf.png){: width=50%} | ![unnamed1pbar](multifit/unnamed1pbar.png){: width=50%} |
-| ![ajuste19pp](multifit/ajuste19pp.png){: width=50%} | ![ajuste53pp](multifit/ajuste53pp.png){: width=50%} |
-| ![multifitl](multifit/multifitl.png){: width=50%} | ![unnamed1](multifit/unnamed1.png){: width=50%} |
-| ![ajuste23pp](multifit/ajuste23pp.png){: width=50%} | ![ajuste62pp](multifit/ajuste62pp.png){: width=50%} |
-| ![multifit](multifit/multifit.png){: width=50%} | ![unnamedpbarp](multifit/unnamedpbarp.png){: width=50%} |
-| ![ajuste30pp](multifit/ajuste30pp.png){: width=50%} | ![grafsigma](multifit/grafsigma.png){: width=50%} |
-| ![radioprotonNg](multifit/radioprotonNg.png){: width=50%} | ![unnamed](multifit/unnamed.png){: width=50%} |
-| ![ajuste44pp](multifit/ajuste44pp.png){: width=50%} | ![imgtotem0](multifit/imgtotem0.png){: width=50%} |
-| ![radioproton](multifit/radioproton.png){: width=50%} | ![unnamedp](multifit/unnamedp.png){: width=50%} |
-
-
-
-## Conclusiones
+![ajuste19pbar_p](multifit/ajuste19pbar_p.png) ![ajuste53pbar_p](multifit/ajuste53pbar_p.png)  
+![multifitgraf](multifit/multifitgraf.png) ![unnamed1pbar](multifit/unnamed1pbar.png)  
+![ajuste19pp](multifit/ajuste19pp.png) ![ajuste53pp](multifit/ajuste53pp.png)  
+![multifitl](multifit/multifitl.png) ![unnamed1](multifit/unnamed1.png)  
+![ajuste23pp](multifit/ajuste23pp.png) ![ajuste62pp](multifit/ajuste62pp.png)  
+![multifit](multifit/multifit.png) ![unnamedpbarp](multifit/unnamedpbarp.png)  
+![ajuste30pp](multifit/ajuste30pp.png) ![grafsigma](multifit/grafsigma.png)  
+![radioprotonNg](multifit/radioprotonNg.png) ![unnamed](multifit/unnamed.png)  
+![ajuste44pp](multifit/ajuste44pp.png) ![imgtotem0](multifit/imgtotem0.png)  
+![radioproton](multifit/radioproton.png) ![unnamedp](multifit/unnamedp.png)  
 
 El modelo quark-diquark, con la implementación de la normalización global, proporciona una herramienta útil para el estudio de las interacciones protones-protones. Los hallazgos destacan la importancia de considerar la estructura interna de los protones para entender mejor las dinámicas de las colisiones a altas energías.
 
