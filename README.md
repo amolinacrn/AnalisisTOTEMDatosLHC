@@ -58,7 +58,7 @@ Para ejecutar las simulaciones y análisis propuestos en este proyecto, se requi
 - **Bibliotecas**: NumPy, SciPy, Matplotlib
 - **Paquetes adicionales**: Minuit y ROOT/CERN
 
-Para mas información sobre los detalles del proyecto, vista mi artículo aquí:
+Para mas información sobre los detalles del proyecto, visita mi artículo aquí:
 https://doi.org/10.15446/rev.fac.cienc.v8n2.77604
 
 y el documento completo del trabajo se puede encontar aqui:
